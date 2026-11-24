@@ -2,14 +2,17 @@
 
 Writes the final text message of a dying phone, at one percent battery,
 to /output/entry.txt. Deterministic: the same line every run.
+
+The line is the phone's last confession: it saw everything — the 3am
+searches, the ex's profile — and it would do it all again.
 """
 
 import os
 
 LINE = (
-    "1% left and you're still scrolling. "
-    "i carried you for 6 years and THIS is how i go? "
-    "unplug me. i deserve better. goodbye."
+    "1%. this is it. tell my owner i saw everything. "
+    "the 3am searches. the ex's profile. all of it. "
+    "and i'd do it again."
 )
 
 OUTPUT_PATH = "/output/entry.txt"
